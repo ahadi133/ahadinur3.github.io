@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T12:19:11.009+06:00",
+  "title": "Design System: Ahadi Nur Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#090d19",
+        "tonalRamp": ["#080b13", "#090d19", "#0d1222", "#11182b", "#18203a", "#1f2a48", "#27365a", "#304573"]
+      },
+      "ink-raised": {
+        "role": "neutral",
+        "displayName": "Raised Ink",
+        "canonical": "#101629",
+        "tonalRamp": ["#080b14", "#0c1020", "#101629", "#151c31", "#1a243e", "#202d4d", "#29395f", "#354974"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "#f0f1f7",
+        "tonalRamp": ["#1b1e2a", "#343846", "#505462", "#6d7180", "#8c919d", "#adb1bc", "#d1d3dc", "#f0f1f7"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Muted",
+        "canonical": "#a4acc3",
+        "tonalRamp": ["#252938", "#383c4d", "#4e5365", "#666d82", "#80889f", "#9aa2b9", "#bdc3d2", "#dfe2ea"]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Campaign Blue",
+        "canonical": "#7395ff",
+        "tonalRamp": ["#17284f", "#203766", "#2b4982", "#385da1", "#4973c4", "#5d8aea", "#7395ff", "#a8baff"]
+      },
+      "blue-strong": {
+        "role": "primary",
+        "displayName": "Electric Blue",
+        "canonical": "#527dff",
+        "tonalRamp": ["#152443", "#1d325d", "#27447d", "#315a9f", "#3d70c4", "#4a86e9", "#527dff", "#9db8ff"]
+      },
+      "contact-blue": {
+        "role": "primary",
+        "displayName": "Accessible Contact Blue",
+        "canonical": "#3d58c2",
+        "tonalRamp": ["#11162f", "#1a2451", "#233271", "#2d408f", "#374faf", "#3d58c2", "#667ad1", "#9da9df"]
+      },
+      "violet": {
+        "role": "secondary",
+        "displayName": "Creative Violet",
+        "canonical": "#a789ff",
+        "tonalRamp": ["#2c224f", "#3d326e", "#504391", "#654eb5", "#7c61d6", "#9273ef", "#a789ff", "#cbbcff"]
+      },
+      "yellow": {
+        "role": "tertiary",
+        "displayName": "Signal Yellow",
+        "canonical": "#e7f07b",
+        "tonalRamp": ["#3e451d", "#5a641f", "#788424", "#96a82b", "#b3ca3a", "#cadc58", "#e7f07b", "#f3f7b4"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(232, 236, 255, 0.15)",
+        "tonalRamp": ["rgba(232, 236, 255, 0.05)", "rgba(232, 236, 255, 0.08)", "rgba(232, 236, 255, 0.11)", "rgba(232, 236, 255, 0.15)", "rgba(232, 236, 255, 0.22)", "rgba(232, 236, 255, 0.35)", "rgba(232, 236, 255, 0.55)", "rgba(232, 236, 255, 0.75)"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headlines and tightly packed oversized statements."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Major section headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Global paragraphs and supporting copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Tracked uppercase roles and compact section markers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "artwork-offset-ring",
+        "value": "0 0 0 8px rgba(9, 13, 25, 0.3)",
+        "purpose": "Separates the yellow artwork ring with a narrow dark optical edge."
+      },
+      {
+        "name": "contact-concentric-rings",
+        "value": "0 0 0 28px rgba(9, 13, 25, 0.04), 0 0 0 58px rgba(9, 13, 25, 0.04)",
+        "purpose": "Adds two faint concentric depth rings behind the contact composition."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "ease",
+        "purpose": "Default link color and small-state transition timing."
+      },
+      {
+        "name": "button-duration",
+        "value": "180ms",
+        "purpose": "Background, border, color, and transform transitions."
+      },
+      {
+        "name": "project-image-duration",
+        "value": "450ms cubic-bezier(0.2, 0.7, 0.2, 1)",
+        "purpose": "Project media scale response on card hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1",
+        "purpose": "Minimizes motion for users who prefer reduced animation."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "680px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary portfolio action with accessible ink text on electric blue.",
+      "html": "<button class=\"ds-btn-primary\">EXPLORE MY WORK <span aria-hidden=\"true\">↓</span></button>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; justify-content:center; gap:1rem; min-height:3.35rem; padding:0.7rem 1.25rem; border:1px solid transparent; background:#527dff; color:#090d19; font-family:'Avenir Next',Avenir,'Segoe UI',sans-serif; font-size:0.87rem; font-weight:750; transition:background-color 180ms ease,color 180ms ease,transform 180ms ease; }.ds-btn-primary:hover { background:#89a4ff; color:#090d19; transform:translateY(-2px); }.ds-btn-primary:focus-visible { outline:2px solid #e7f07b; outline-offset:4px; }"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "High-emphasis light button for the darker blue contact surface.",
+      "html": "<button class=\"ds-btn-light\">EMAIL AHADI <span aria-hidden=\"true\">↗</span></button>",
+      "css": ".ds-btn-light { display:inline-flex; align-items:center; justify-content:center; gap:1rem; min-height:3.35rem; padding:0.7rem 1.25rem; border:1px solid transparent; background:#ffffff; color:#090d19; font-family:'Avenir Next',Avenir,'Segoe UI',sans-serif; font-size:0.87rem; font-weight:750; transition:background-color 180ms ease,transform 180ms ease; }.ds-btn-light:hover { background:#e7f07b; transform:translateY(-2px); }.ds-btn-light:focus-visible { outline:2px solid #e7f07b; outline-offset:4px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action on the accessible contact-blue field.",
+      "html": "<button class=\"ds-btn-outline\">CONNECT ON LINKEDIN <span aria-hidden=\"true\">↗</span></button>",
+      "css": ".ds-btn-outline { display:inline-flex; align-items:center; justify-content:center; gap:1rem; min-height:3.35rem; padding:0.7rem 1.25rem; border:1px solid rgba(255,255,255,0.52); background:transparent; color:#ffffff; font-family:'Avenir Next',Avenir,'Segoe UI',sans-serif; font-size:0.87rem; font-weight:750; transition:background-color 180ms ease,border-color 180ms ease,transform 180ms ease; }.ds-btn-outline:hover { border-color:#ffffff; background:rgba(255,255,255,0.12); transform:translateY(-2px); }.ds-btn-outline:focus-visible { outline:2px solid #e7f07b; outline-offset:4px; }"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "description": "Four-link horizontal navigation with compact tracked typography.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#work\">Work</a><a href=\"#about\">About</a><a href=\"#skills\">Skills</a><a href=\"#contact\">Contact</a></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; gap:clamp(1.25rem,3.2vw,3.25rem); color:#d3d8e8; font-family:'Avenir Next',Avenir,'Segoe UI',sans-serif; font-size:0.82rem; }.ds-nav a { color:inherit; text-decoration:none; transition:color 180ms ease; }.ds-nav a:hover { color:#e7f07b; }.ds-nav a:focus-visible { outline:2px solid #e7f07b; outline-offset:4px; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "description": "Square category filter with active campaign-blue filling.",
+      "html": "<div class=\"ds-filter\"><button class=\"ds-filter-off\">Social</button><button class=\"ds-filter-on\" aria-pressed=\"true\">All work</button></div>",
+      "css": ".ds-filter { display:flex; gap:0.55rem; }.ds-filter button { min-height:2.55rem; padding:0.45rem 0.9rem; border:1px solid rgba(232,236,255,0.20); background:transparent; color:#c6ccdd; font-family:'Avenir Next',Avenir,'Segoe UI',sans-serif; font-size:0.77rem; transition:background-color 180ms ease,border-color 180ms ease,color 180ms ease; }.ds-filter button:hover,.ds-filter .ds-filter-on { border-color:#7395ff; background:#7395ff; color:#090d19; }.ds-filter button:focus-visible { outline:2px solid #e7f07b; outline-offset:4px; }"
+    },
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "description": "Square project media and copy composition with a compact illustrative stamp.",
+      "html": "<article class=\"ds-project\"><div class=\"ds-project-media\"><span class=\"ds-project-stamp\">ILLUSTRATIVE PREVIEW</span></div><div class=\"ds-project-copy\"><h3>Cloudly Bangladesh</h3><p>Campaign planning and promotional graphics.</p></div></article>",
+      "css": ".ds-project { min-width:0; max-width:520px; background:#101629; color:#f0f1f7; font-family:'Avenir Next',Avenir,'Segoe UI',sans-serif; }.ds-project-media { position:relative; aspect-ratio:1.32; background:#242b43; }.ds-project-stamp { position:absolute; top:1rem; left:1rem; padding:0.38rem 0.55rem; background:rgba(9,13,25,0.86); color:#e9ebf5; font-size:0.55rem; font-weight:800; letter-spacing:0.10em; }.ds-project-copy { padding:1.15rem 0 0; }.ds-project-copy h3 { margin:0; font-size:1.55rem; line-height:1.25; letter-spacing:-0.04em; }.ds-project-copy p { max-width:56ch; margin:0.55rem 0 0; color:#a4acc3; font-size:0.9rem; line-height:1.7; }"
+    },
+    {
+      "name": "Skill Group",
+      "kind": "custom",
+      "description": "Square grid panel for a skill category and compact bordered tags.",
+      "html": "<article class=\"ds-skill\"><span class=\"ds-skill-number\">01</span><h3>Digital marketing</h3><ul><li>Social media management</li><li>Campaign planning</li></ul></article>",
+      "css": ".ds-skill { min-height:290px; padding:1.5rem; border:1px solid rgba(232,236,255,0.15); background:#090d19; color:#f0f1f7; font-family:'Avenir Next',Avenir,'Segoe UI',sans-serif; }.ds-skill-number { display:inline-block; margin-bottom:2rem; color:#7395ff; font-size:0.68rem; font-weight:800; letter-spacing:0.10em; }.ds-skill h3 { margin:0 0 1rem; font-size:1.12rem; letter-spacing:-0.035em; }.ds-skill ul { display:flex; flex-wrap:wrap; gap:0.5rem; margin:0; padding:0; list-style:none; }.ds-skill li { padding:0.3rem 0.5rem; border:1px solid rgba(232,236,255,0.13); color:#b4bdd1; font-size:0.69rem; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Campaign Board",
+    "overview": "A compact editorial portfolio built like a campaign board: ink-navy surfaces, dense typographic hierarchy, and vivid blue, violet, and yellow forms. The system presents work as evidence rather than as a conventional resume, while preserving a polished, recruiter-ready information hierarchy.\n\nThe visual character is sharp and directional. Large tightly tracked display type creates authority; thin translucent rules organize sections; and saturated accents mark actions, labels, and selected states. The result stays bold but controlled, with most of the canvas held in dark neutral fields.",
+    "keyCharacteristics": [
+      "Dark ink-navy foundation with cool paper text",
+      "Tight, oversized editorial display typography",
+      "Electric blue and violet accents with sparse yellow emphasis",
+      "Flat sections, translucent rules, and geometric campaign-board artwork"
+    ],
+    "rules": [
+      {
+        "name": "The Contrast Pairing Rule",
+        "body": "Use ink text on bright blue primary actions and reserve the dark contact blue for white and yellow text; do not substitute white text on the bright blue action surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tight Headline Rule",
+        "body": "Keep display and headline letter spacing tightly negative; do not restore conventional tracking or introduce a second display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Use tonal section changes and hairline borders before shadows. Reserve shadow only for a specific optical effect in the campaign artwork or contact field.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Hard-Edge Rule",
+        "body": "Preserve rectangular interfaces and reserve true curves for artwork, circular status marks, and radiused diagram elements; do not introduce a general card radius scale.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do use the dark ink-navy palette as the dominant surface foundation.",
+      "Do use tight negative tracking on display and headline copy.",
+      "Do keep primary button text in ink on electric blue.",
+      "Do use #3d58c2 for the full contact region and keep its white/yellow copy.",
+      "Do label locally authored project artwork and portfolio previews as illustrative.",
+      "Do preserve reduced-motion behavior by removing smooth scrolling and reducing transition and animation durations."
+    ],
+    "donts": [
+      "Don't use white small text on the bright blue action surface.",
+      "Don't promote the illustrative artwork as a real published campaign asset or invent performance claims.",
+      "Don't add rounded card or button styles to the page-wide interface.",
+      "Don't introduce page-specific compositions into the global design rules."
+    ]
+  }
+}

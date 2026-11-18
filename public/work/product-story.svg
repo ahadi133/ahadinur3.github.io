@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1060" role="img" aria-labelledby="title">
+  <title id="title">Illustrative product storytelling artwork</title>
+  <rect width="900" height="1060" fill="#f1edff"/>
+  <path d="M0 0h900v323L0 690z" fill="#15203d"/>
+  <circle cx="720" cy="265" r="165" fill="#a88bff"/>
+  <path d="m645 228 146-24-31 185-145 24z" fill="#e6ef7d"/>
+  <rect x="86" y="100" width="300" height="18" fill="#7395ff"/>
+  <rect x="86" y="150" width="414" height="18" fill="#dce1f0"/>
+  <rect x="86" y="200" width="252" height="18" fill="#dce1f0" opacity=".6"/>
+  <text x="86" y="420" fill="#fff" font-family="Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-5">PRODUCT</text>
+  <text x="86" y="510" fill="#fff" font-family="Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-5">STORY</text>
+  <text x="86" y="572" fill="#b9c5e1" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">MAKE COMPLEXITY CLEAR</text>
+  <rect x="96" y="702" width="708" height="280" rx="4" fill="#fff"/>
+  <rect x="128" y="744" width="156" height="196" fill="#dee4ff"/>
+  <circle cx="207" cy="819" r="43" fill="#567cff"/>
+  <path d="m174 824 28 28 49-58" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="322" y="751" width="352" height="16" fill="#19223b"/>
+  <rect x="322" y="789" width="408" height="12" fill="#aeb6ca"/>
+  <rect x="322" y="819" width="350" height="12" fill="#c7ccda"/>
+  <rect x="322" y="875" width="125" height="38" fill="#7395ff"/>
+</svg>
