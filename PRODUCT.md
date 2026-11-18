@@ -8,47 +8,47 @@ web
 
 ## Users
 
-Marketing recruiters, hiring managers, creative agencies, and technology companies looking for early-career digital marketing, content, product marketing, or marketing analytics talent.
+Recruiters and marketing teams reviewing early-career marketing experience in Dhaka and beyond.
 
 ## Product Purpose
 
-Ahadi Nur's portfolio presents his marketing and creative work, background, skills, and ways to get in touch. Success means a visitor can quickly understand his focus and explore evidence of his work beyond a CV.
+Present Mirza Anto Ahadi Nur's marketing experience and selected work so visitors can understand his focus and contact him quickly.
 
 ## Positioning
 
-The portfolio combines creative content execution, campaign support, business understanding, and marketing analysis, supported by a Management Information Systems background.
+Marketing practice across B2B research, campaign content, social media, and reporting.
 
 ## Operating Context
 
-Visitors may be reviewing the portfolio on desktop or mobile while assessing a candidate for a marketing role or a creative collaboration.
+Visitors may review the portfolio on desktop or mobile while assessing a candidate for marketing work.
 
 ## Capabilities and Constraints
 
-- The site is a static, responsive portfolio with sections for work, case studies, about, skills, experience, and contact.
-- The source material identifies Ahadi as a Management Information Systems undergraduate at the University of Dhaka, with experience at Cloudly Infotech and African Fashion and Arts Movement.
-- No original project files or dashboard screenshots were provided. Locally authored project artwork is illustrative and must not be presented as actual campaign deliverables.
-- Do not invent campaign outcomes, client endorsements, or performance values.
+- One responsive page with a portrait-led introduction, degree and relevant coursework, two marketing roles, a My Works gallery, categorized marketing skills, and contact links.
+- Include only marketing-related responsibilities, tools, and work from the supplied profile.
+- Show all 37 supplied raster images: four featured first and the other 33 behind a keyboard-accessible “See more work” disclosure. Artwork from Cloudly and AFAM is shown as supplied; other-folder work is gallery-only.
+- Do not invent personal contributions, campaign outcomes, endorsements, or performance claims beyond the profile.
+- Exclude unrelated roles, coursework, and projects.
 
 ## Brand Commitments
 
 - Name: Mirza Anto Ahadi Nur.
-- Focus: Digital marketing, content, and strategy.
-- Tagline: "Ideas into Content. Content into Impact."
-- The existing portfolio is the structural reference; the supplied brief sets this portfolio's content and dark navy, blue, and violet visual direction.
+- Focus: B2B research, digital content, campaigns, and reporting.
+- Location: Dhaka, Bangladesh.
+- Contact: ahadi.nur36@gmail.com and the supplied LinkedIn and GitHub profiles.
 
 ## Evidence on Hand
 
-- The supplied brief describes 15+ Cloudly content pieces, two approved posters, one published post, a Cloudly Bangladesh social campaign, Cloudly product marketing and analytics work, and social media management for African Fashion and Arts Movement.
-- The reference portfolio provides a public email address, LinkedIn profile, and GitHub profile.
-- Original designs, dashboard screenshots, and a CV were not supplied.
+- Cloudly Infotech Limited marketing internship: 15+ Canva content pieces, social planning and branding, product and website content, SEO, B2B outreach, campaign analytics, and AI-assisted marketing.
+- African Fashion and Arts Movement social media role: content, scheduling, communication, campaigns, branding, audience engagement, and online visibility.
+- Thirty-seven raster designs supplied in the `content`, `afam`, and `others` folders.
 
 ## Product Principles
 
-- Show real scope and personal contribution clearly.
-- Make creative and analytical capabilities equally easy to find.
-- Label authored portfolio previews as illustrative.
-- Keep claims grounded in the supplied profile.
+- Make marketing roles and relevant evidence scannable.
+- Use supplied assets without adding claims.
+- Keep the page brief, accessible, and responsive.
 
 ## Accessibility & Inclusion
 
-Use semantic landmarks, keyboard-operable controls, visible focus, responsive layouts, and reduced-motion support.
+Use semantic landmarks, descriptive image alternatives, keyboard-visible focus, responsive layouts, and reduced-motion support.
