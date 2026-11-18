@@ -1,6 +1,6 @@
-# Ahadi Nur — Creative Marketing Portfolio
+# Ahadi Nur — Marketing Portfolio
 
-A responsive Next.js portfolio for showcasing Ahadi's digital marketing, content, campaign, product communication, and analytics work.
+A concise Next.js portfolio for Mirza Anto Ahadi Nur's marketing experience, work samples, and contact details. The My Works gallery includes all 37 raster images supplied in the Cloudly, AFAM, and other folders: four featured pieces appear first, with the remaining 33 behind the native “See more work” disclosure.
 
 ## Run locally
 
@@ -19,4 +19,4 @@ npm run build
 npm run start
 ```
 
-The project artwork in `public/work/` is original illustrative preview art, not a set of published client deliverables. Replace it with approved project assets when available.
+Optimized supplied artwork is stored in `public/jobs/` and indexed in `src/app/work-samples.ts`. The experience section is limited to Cloudly marketing and AFAM social media work; other-folder images appear only in the gallery. The portfolio does not add performance claims beyond the profile.

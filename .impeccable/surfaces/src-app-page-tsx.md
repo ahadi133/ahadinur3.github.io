@@ -6,19 +6,16 @@ related_targets: []
 ---
 
 ## Scope and visitor mode
-Single-page marketing and creative portfolio; Experience mode.
+Single-page marketing portfolio; Experience mode.
 
 ## Audience and job
-Recruiters, hiring managers, creative agencies, and technology companies need to understand Ahadi's marketing focus and review relevant work.
+Recruiters and marketing teams need to understand Ahadi's marketing focus and review relevant work quickly.
 
 ## Action and proof
-Explore filtered project previews and case-study details, understand Ahadi's background and toolkit, then contact him by email or LinkedIn. Proof is limited to the experience, responsibilities, and counts in the supplied profile.
+See Ahadi's portrait and marketing focus, review education and the Cloudly and AFAM experience, browse supplied work samples and categorized skills, then contact him by email or LinkedIn.
 
 ## Constraints
-No original campaign artwork, dashboard screenshots, or CV were supplied. All authored project previews must remain labeled illustrative; do not invent performance values or endorsements.
+Show Education before Experience, keep experience marketing-focused, and place the four supplied skill categories after My Works. Show all 37 supplied raster images in My Works, with four featured first and 33 more behind a native disclosure. Use supplied artwork without adding performance claims or unverified personal-credit language; keep the page brief and responsive.
 
 ## Direction and memorable moment
-Dark navy creative studio with electric blue, violet, and lime-yellow accents. The opening pairs the statement “Ideas into content. Content into impact.” with an original layered campaign-board illustration.
-
-## Unresolved decisions
-Replace illustrative previews with approved originals when available; confirm any additional work, resume, or performance data before adding it.
+Ink-navy editorial framing with one cool-blue accent. Pair a transparent profile portrait in a circular frame with the brief hero; order content as Education, Experience, My Works, then Skills.
