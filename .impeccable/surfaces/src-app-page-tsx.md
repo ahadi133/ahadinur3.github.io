@@ -18,4 +18,4 @@ See Ahadi's portrait and marketing focus, review education and the Cloudly and A
 Show Education before Experience, keep experience marketing-focused, and place the four supplied skill categories after My Works. Show all 37 supplied raster images in My Works, with four featured first and 33 more behind a native disclosure. Use supplied artwork without adding performance claims or unverified personal-credit language; keep the page brief and responsive.
 
 ## Direction and memorable moment
-Ink-navy editorial framing with one cool-blue accent. Pair a transparent profile portrait in a circular frame with the brief hero; order content as Education, Experience, My Works, then Skills.
+Deep ink-navy atmosphere with campaign-blue and periwinkle accents. Pair a transparent profile portrait in a circular frame with the brief hero; use blue for section hierarchy, work outlines, and the contact region without competing with artwork. Order content as Education, Experience, My Works, then Skills.

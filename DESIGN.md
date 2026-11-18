@@ -1,12 +1,16 @@
 ---
 name: "Ahadi Nur Marketing Portfolio"
-description: "A concise, work-led portfolio with an ink background, clear type, and original marketing samples."
+description: "A concise, work-led portfolio with a deep navy atmosphere, bright blue hierarchy, and supplied marketing samples."
 colors:
-  ink: "#090d19"
+  ink: "#0a1020"
+  ink-raised: "#111d36"
   paper: "#f0f1f7"
-  muted: "#a4acc3"
-  blue: "#9ab0ff"
-  line: "rgba(232, 236, 255, 0.18)"
+  muted: "#b0bdd7"
+  blue: "#7395ff"
+  blue-soft: "#b8caff"
+  blue-haze: "rgba(67, 102, 190, 0.18)"
+  contact-surface: "#1a3061"
+  line: "rgba(115, 149, 255, 0.22)"
   image-surface: "#ffffff"
 typography:
   display:
@@ -37,15 +41,18 @@ spacing:
 
 **Creative North Star: "Work, plainly shown."**
 
-A minimal, work-led portfolio that puts the supplied campaign designs beside the roles and responsibilities they support. The interface stays quiet: an ink background, readable text, one blue accent, and thin dividers.
+A minimal, work-led portfolio that puts the supplied campaign designs beside the roles and responsibilities they support. A deep navy canvas, atmospheric blue light, bright campaign-blue emphasis, and a distinct blue contact field bring color into the hierarchy without competing with the work.
 
 ## Colors
 
-- **Ink** (#090d19): Page background.
+- **Ink** (#0a1020): Deep navy page foundation.
+- **Raised ink** (#111d36): Subtle elevation in the page atmosphere and interactive surfaces.
 - **Paper** (#f0f1f7): Primary text.
-- **Muted** (#a4acc3): Supporting text and captions.
-- **Blue** (#9ab0ff): Headline emphasis and interactive links.
-- **Hairline** (rgba(232, 236, 255, 0.18)): Section separation.
+- **Muted** (#b0bdd7): Supporting text, tinted cool blue for coherence.
+- **Campaign blue** (#7395ff): Interactive states, work frames, and selected emphasis.
+- **Soft blue** (#b8caff): Section headings and supporting emphasis.
+- **Contact surface** (#1a3061): Full-width closing section.
+- **Hairline** (rgba(115, 149, 255, 0.22)): Cool-blue section separation.
 - **Image surface** (#ffffff): Background behind supplied artwork.
 
 Artwork retains its supplied colors and proportions against a white image surface.
@@ -61,7 +68,7 @@ Use a centered content width of 72rem with a responsive 1.25rem–4rem gutter. T
 ## Components
 
 - **Header:** Full name with links to Education, Experience, My Works, Skills, and Contact; no competing call to action.
-- **Hero:** Short marketing introduction paired with the supplied transparent profile portrait in a circular frame.
+- **Hero:** Short marketing introduction paired with the supplied transparent profile portrait in a circular frame against the navy atmosphere.
 - **Education:** Degree, institution, and relevant coursework in a compact two-column row.
 - **Work gallery:** Responsive, uncropped images with captions and full-size links. Four featured samples are visible first; 33 more are inside a keyboard-accessible disclosure.
 - **Experience:** Simple two-column rows divided by hairlines, collapsing to one column on mobile.
