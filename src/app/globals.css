@@ -1,10 +1,14 @@
 :root {
   color-scheme: dark;
-  --ink: #090d19;
+  --ink: #0a1020;
+  --ink-raised: #111d36;
   --paper: #f0f1f7;
-  --muted: #a4acc3;
-  --blue: #9ab0ff;
-  --line: rgba(232, 236, 255, 0.18);
+  --muted: #b0bdd7;
+  --blue: #7395ff;
+  --blue-soft: #b8caff;
+  --blue-haze: rgba(67, 102, 190, 0.18);
+  --contact-surface: #1a3061;
+  --line: rgba(115, 149, 255, 0.22);
   --image-surface: #ffffff;
   --font-small: 0.875rem;
   --font-body: 1rem;
@@ -26,7 +30,9 @@ html {
 
 body {
   margin: 0;
-  background: var(--ink);
+  background:
+    radial-gradient(ellipse at 84% 0%, var(--blue-haze), transparent 56rem),
+    linear-gradient(180deg, var(--ink-raised), var(--ink) 40rem, var(--ink-raised));
   color: var(--paper);
   font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
   font-size: 16px;
@@ -102,7 +108,7 @@ a:hover {
   justify-self: end;
   margin: 0;
   overflow: hidden;
-  border: 1px solid var(--line);
+  border: 1px solid var(--blue);
   border-radius: 50%;
   background: transparent;
 }
@@ -123,7 +129,7 @@ a:hover {
 }
 
 .hero h1 span {
-  color: var(--blue);
+  color: var(--blue-soft);
 }
 
 .hero-description {
@@ -146,6 +152,7 @@ a:hover {
 
 .education-section > h2 {
   margin: 0 0 1.75rem;
+  color: var(--blue-soft);
   font-size: var(--font-section);
   font-weight: 700;
   letter-spacing: -0.035em;
@@ -180,7 +187,7 @@ a:hover {
 
 .education-coursework h3 {
   margin: 0 0 0.65rem;
-  color: var(--paper);
+  color: var(--blue-soft);
   font-size: var(--font-body);
   font-weight: 600;
 }
@@ -192,6 +199,7 @@ a:hover {
 
 .work-section > h2 {
   margin: 0 0 1.75rem;
+  color: var(--blue-soft);
   font-size: var(--font-section);
   font-weight: 700;
   letter-spacing: -0.035em;
@@ -212,6 +220,7 @@ a:hover {
 .work-image-link {
   display: block;
   overflow: hidden;
+  border: 1px solid var(--line);
   background: var(--image-surface);
 }
 
@@ -225,6 +234,10 @@ a:hover {
   opacity: 0.92;
 }
 
+.work-image-link:hover {
+  border-color: var(--blue);
+}
+
 .work-card figcaption {
   display: grid;
   gap: 0.2rem;
@@ -235,7 +248,7 @@ a:hover {
 }
 
 .work-collection {
-  color: var(--muted);
+  color: var(--blue-soft);
   font-size: 0.8em;
 }
 
@@ -251,7 +264,8 @@ a:hover {
   min-width: 10rem;
   min-height: 2.75rem;
   padding: 0.6rem 0.9rem;
-  border: 1px solid var(--line);
+  border: 1px solid var(--blue);
+  background: var(--ink-raised);
   color: var(--paper);
   cursor: pointer;
   font-size: var(--font-small);
@@ -263,8 +277,8 @@ a:hover {
 }
 
 .work-reveal summary:hover {
-  border-color: var(--blue);
-  color: var(--blue);
+  background: var(--blue);
+  color: var(--ink);
 }
 
 .work-less-label {
@@ -298,6 +312,7 @@ a:hover {
 
 .experience-section > h2 {
   margin: 0 0 1.75rem;
+  color: var(--blue-soft);
   font-size: var(--font-section);
   font-weight: 700;
   letter-spacing: -0.035em;
@@ -384,6 +399,7 @@ a:hover {
 
 .skill-group h3 {
   margin: 0 0 0.65rem;
+  color: var(--blue-soft);
   font-size: var(--font-body);
   font-weight: 650;
   line-height: 1.4;
@@ -408,16 +424,30 @@ a:hover {
 }
 
 .contact-section {
+  position: relative;
+  isolation: isolate;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 2rem;
   padding-block: 2rem 2.5rem;
+}
+
+.contact-section::before {
+  position: absolute;
+  z-index: -1;
+  inset-block: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
   border-top: 1px solid var(--line);
+  background: var(--contact-surface);
+  content: "";
 }
 
 .contact-section h2 {
   margin: 0;
+  color: var(--blue-soft);
   font-size: var(--font-section);
   font-weight: 700;
   letter-spacing: -0.04em;
@@ -426,7 +456,11 @@ a:hover {
 .contact-links {
   flex-wrap: wrap;
   justify-content: flex-end;
-  color: var(--muted);
+  color: var(--paper);
+}
+
+.contact-links a:hover {
+  color: var(--blue-soft);
 }
 
 @media (max-width: 1000px) {
